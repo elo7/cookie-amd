@@ -4,6 +4,8 @@ _Cookie-amd browser cookie library_
 
 Cookie.js is a library that manipulates browser cookie. This library uses [amd](http://en.wikipedia.org/wiki/Asynchronous_module_definition) structure.
 
+[![Build Status](https://travis-ci.org/elo7/cookie-amd.svg?branch=master)](https://travis-ci.org/elo7/cookie-amd)
+
 ## Install
 
 Install with [Bower](http://bower.io): `bower install cookie-amd`
