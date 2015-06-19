@@ -1,0 +1,27 @@
+{
+	"name": "cookie-amd",
+	"version": "1.0.0-SNAPSHOT",
+	"homepage": "https://github.com/elo7/cookie-amd",
+	"description": "A small browser cookie manipulation library",
+	"main": "cookie.js",
+	"moduleType": [
+		"amd"
+	],
+	"keywords": [
+		"cookie",
+		"js"
+	],
+	"authors": [
+		"Elo7"
+	],
+	"license": "BSD",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test"
+	],
+	"devDependencies": {
+		"async-define": "elo7/async-define"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "cookie-amd",
+	"version": "1.0.0-SNAPSHOT",
+	"description": "Browser cookie management",
+	"keywords": [
+		"JS",
+		"cookie"
+	],
+	"scripts": {
+		"test": "mocha test --recursive --reporter nyan",
+		"preinstall": "rm -vrf bower_components",
+		"postinstall": "bower install"
+	},
+	"author": "Elo7",
+	"devDependencies": {
+		"mocha": "2.0.1",
+		"bower": "1.4.1"
+	}
+}
