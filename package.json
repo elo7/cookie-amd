@@ -1,6 +1,6 @@
 {
-	"name": "cookie-amd",
-	"version": "1.0.1-SNAPSHOT",
+	"name": "elo7-cookie-amd",
+	"version": "1.0.2",
 	"description": "Browser cookie management",
 	"keywords": [
 		"JS",
@@ -8,12 +8,15 @@
 	],
 	"scripts": {
 		"test": "mocha test --recursive --reporter nyan",
-		"preinstall": "rm -vrf bower_components",
-		"postinstall": "bower install"
+		"preinstall": "rm -vrf bower_components"
 	},
 	"author": "Elo7",
+	"dependencies": {
+		"define-async": "1.1.0"
+	},
 	"devDependencies": {
 		"mocha": "2.0.1",
+		"define-async": "1.1.0",
 		"bower": "1.4.1"
 	}
 }

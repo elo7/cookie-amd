@@ -8,11 +8,11 @@ Cookie.js is a library that manipulates browser cookie. This library uses [amd](
 
 ## Install
 
-Install with [Bower](http://bower.io): `bower install cookie-amd`
+Install with [Npm](https://www.npmjs.com/): `npm install elo7-cookie-amd`
 
 ## Dependency
 
-Cookie-amd depends on an [amd](http://en.wikipedia.org/wiki/Asynchronous_module_definition) implementation. We suggest [async-define](https://gist.github.com/sergiolopes/5778124) implementation for dependency lookup.
+Cookie-amd depends on an [amd](http://en.wikipedia.org/wiki/Asynchronous_module_definition) implementation. We suggest [define-async](https://www.npmjs.com/package/define-async) implementation for dependency lookup.
 
 ## Methods
 
