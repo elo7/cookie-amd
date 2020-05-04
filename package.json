@@ -1,6 +1,6 @@
 {
 	"name": "elo7-cookie-amd",
-	"version": "1.1.4-SNAPSHOT",
+	"version": "1.1.4",
 	"license": "BSD-3-Clause",
 	"description": "Browser cookie management",
 	"keywords": [
