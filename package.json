@@ -12,6 +12,9 @@
 		"url": "git+ssh://git@github.com/elo7/cookie-amd.git"
 	},
 	"scripts": {
+		"lint": "eslint cookie.js test/*",
+		"build": "terser cookie.js -o cookie.min.js --compress drop_console=true --mangle",
+		"pretest": "npm run lint && npm run build",
 		"test": "mocha test --recursive --reporter nyan"
 	},
 	"author": "Elo7",
@@ -19,6 +22,8 @@
 		"define-async": "1.3.2"
 	},
 	"devDependencies": {
-		"mocha": "7.1.1"
+		"eslint": "6.8.0",
+		"mocha": "7.1.1",
+		"terser": "4.6.7"
 	}
 }
